@@ -188,8 +188,8 @@ The material assumes Books #1–5 (plasma fundamentals), Books #6–10 (dielectr
 ## Key Technical Themes
 
 1. **The outside of the pillar is the capacitor.** About 8.6 fF comes from the outer surface of a 28 nm × 1.6 µm pillar. Every square nanometre still covered by oxide or nitride after the dip-out is lost.
-2. **Slender metal, strong liquids.** A pillar with a free span of 760 nm deflects 17 nm under a water meniscus pulling on one side. It survives only because the supports cut its span and the drying fluid has low surface tension.
-3. **Collapse is an instability.** Capillary force grows as the gap closes. If the linear deflection exceeds a quarter of the gap, the pillar does not stop; it touches.
+2. **Slender metal, strong liquids.** A pillar with a free span of 760 nm deflects 17 nm under a water meniscus pulling on one side along its whole span. It survives only because the supports cut its span and the drying fluid has low surface tension.
+3. **Collapse is an instability.** Capillary force grows as the gap closes. If the linear deflection of two neighbours pulled toward each other exceeds an eighth of the gap, they do not stop; they touch.
 4. **The lattice is the skeleton.** About 28% of each support is open. The rest must survive several minutes of HF and hold up to a hundred pillars per micrometre of span.
 5. **HF must find every corner.** The farthest oxide is only 27 nm from an opening, but it sits in a gap 17 nm wide and up to 760 nm below the middle support. Removal is fast; proof of complete removal is hard.
 6. **Selectivity is measured in nanometres.** At oxide:nitride selectivity near 100:1 for the doped lower mold, the supports still lose 2–4 nm each side; the bottom stop is only 20 nm.

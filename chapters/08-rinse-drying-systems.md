@@ -38,24 +38,24 @@ A pillar wetted equally on all sides feels the same pressure from every directio
 q = α · ΔP · d        (force per unit length along the pillar)
 ```
 
-where α is the fraction of the full pressure that is unbalanced. α = 1 is the worst case: liquid on one side only. Observation and simulation of drying fronts in pillar arrays suggest typical α of 0.2–0.4 for an orderly front; disturbances (vibration, a jet, a local dry spot) push α toward 1 locally.
+where α is an effective fraction of the full pressure that is unbalanced, averaged over the span. α = 1 is the worst case: liquid on one side only, over the whole span. A drying front passes down the gaps, so at any moment only part of the span carries an unbalanced meniscus; observation and simulation of orderly fronts in pillar arrays suggest effective α of about 0.1–0.2. Disturbances (vibration, a jet, a droplet, a local dry spot) push α toward 1 locally.
 
 ### 8.1.3 What the Supports Allow
 
-Chapter 10 derives the deflection of the lower free span (760 nm, clamped at both ends) and the collapse threshold, a linear deflection of one-quarter of the gap (4.25 nm). The reference numbers, for α = 0.3 and a full-asymmetry worst case:
+Chapter 10 derives the deflection of the lower free span (760 nm, clamped at both ends) and the collapse threshold. Two neighbouring pillars pulled toward each other close their gap from both sides, and the capillary force grows as the gap closes; the pair becomes unstable when the linear deflection of each pillar exceeds one-eighth of the gap (2.1 nm). The reference numbers, for the orderly-front value α = 0.15 and the full-asymmetry worst case:
 
 ```
 Linear deflection of the 760 nm span (d = 28 nm, E = 400 GPa):
-  Fluid             α = 0.3      α = 1        Margin to g/4 at α = 0.3
-  ─────────────────────────────────────────────────────────────────────
-  Water             5.1 nm       17.1 nm      collapses (1.2×)
-  IPA, 25 °C        1.5 nm       5.2 nm       2.8×
-  IPA, 50 °C        1.4 nm       4.7 nm       3.0×
-  HFE solvent       1.0 nm       3.2 nm       4.4×
+  Fluid             α = 0.15     α = 1        Pair margin (g/8 ÷ δ at α = 0.15)
+  ──────────────────────────────────────────────────────────────────────────
+  Water             2.6 nm       17.1 nm      0.83 → pairs collapse
+  IPA, 25 °C        0.77 nm      5.2 nm       2.8
+  IPA, 50 °C        0.70 nm      4.7 nm       3.0
+  HFE solvent       0.48 nm      3.2 nm       4.4
   Supercritical     0            0            —
 ```
 
-Water drying would collapse the forest even with an orderly front. IPA has a margin of about three, which disappears where the front is disturbed (α → 1). The design of the drying system is the management of α and γ.
+Water drying would collapse the forest even with an orderly front. IPA has a margin of about three, which disappears where the front is disturbed (α above about 0.4). The design of the drying system is the management of α and γ.
 
 ---
 
@@ -173,21 +173,21 @@ Single-wafer supercritical dryers are integrated on the wet platform: the wet ch
 ## 8.7 Choosing the Drying Method
 
 ```
-Collapse margin (g/4 ÷ linear deflection at α = 0.3, IPA 25 °C)
+Pair collapse margin (g/8 ÷ linear deflection at α = 0.15, IPA 25 °C)
   > 4      IPA spin dry, standard
   2–4      IPA spin dry with N₂/IPA-vapor front control; heated IPA
   1–2      Supercritical CO₂, or HFE-solvent displacement + spin dry
   < 1      Supercritical CO₂ mandatory; vapor-HF finishing (Chapter 7)
 
 Reference structure: margin 2.8 → IPA spin dry with front control
-A 2.0 µm mold with the same supports: margin ≈ 1.2 → supercritical
+A 2.0 µm mold with a 1000 nm lower span: margin ≈ 0.9 → supercritical
 ```
 
 ---
 
 ## Summary and Key Takeaways
 
-1. **Water would collapse the forest.** 8.5 MPa in a 17 nm gap; 5 nm deflection even with an orderly front.
+1. **Water would collapse the forest.** 8.5 MPa in a 17 nm gap; 2.6 nm deflection even with an orderly front, beyond the 2.1 nm pair threshold.
 
 2. **IPA gives a margin of about three.** It is consumed by disturbances that push α toward 1.
 

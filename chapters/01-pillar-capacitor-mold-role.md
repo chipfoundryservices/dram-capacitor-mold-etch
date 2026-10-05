@@ -198,7 +198,7 @@ Support-open etch
   Top-support remaining thickness       ≥ 100 nm (after mask strip)
 
 Dip-out
-  Residual oxide                        none detectable; ≤ 0.3 nm average
+  Residual oxide                        none detectable (Si on TiN below XPS limit)
   Support SiN loss (each exposed face)  ≤ 3 nm
   Bottom SiN stop remaining             ≥ 15 nm everywhere
   TiN surface oxide after dry           ≤ 1.0 nm TiOₓ equivalent
